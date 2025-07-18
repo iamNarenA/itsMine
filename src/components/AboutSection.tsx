@@ -18,7 +18,7 @@ const AboutSection = () => {
       year: 'Time Beginning',
       title: 'Quantum Tinkerer',
       company: 'QT Inc',
-      description: 'Leading development of cutting-edge web applications using modern technologies.'
+      description: 'Boundary-pushing problem wrangler with a knack for logic-bending, obsessive tinkering, and delightfully offbeat design—remixing data, conjuring clever code, and unleashing creative prototypes. Fueled by curiosity and a dash of chaos, big ideas, stubborn bugs, and quirky side projects get zapped into notorious digital weirdcraft..'
     }
     
   ];
@@ -31,8 +31,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A passionate developer with a keen eye for design and a commitment to creating 
-            exceptional digital experiences that solve real-world problems.
+            Boldly experiments in the weirder corners of technology, embracing complexity and uncertainty to unlock new solutions..
           </p>
         </div>
 
@@ -41,23 +40,10 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold mb-4">My Journey</h3>
             <div className="space-y-4 text-muted-foreground">
-              <p>
-                My passion for technology began in college, where I discovered the perfect 
-                intersection of creativity and logic in software development. What started 
-                as curiosity about how websites work evolved into a full-fledged career 
-                dedicated to crafting digital experiences.
-              </p>
-              <p>
-                Over the years, I've had the privilege of working with diverse teams and 
-                clients, from innovative startups to established enterprises. Each project 
-                has taught me something new and reinforced my belief that great software 
-                is built on the foundation of understanding user needs.
-              </p>
-              <p>
-                When I'm not coding, you'll find me exploring new design trends, 
-                contributing to open-source projects, or sharing knowledge with the 
-                developer community through writing and mentoring.
-              </p>
+              <p> The tech obsession kicked off in college—where code curiosity collided with creative chaos, and a fascination for what makes websites tick spiraled into full-on digital tinkering. That initial spark launched an ongoing quest: remixing logic and creativity to architect unconventional user experiences. </p> 
+              <p> From scrappy startup hackathons to wrangling enterprise-scale projects, every new collaboration has been a fresh level-up—proving time and again that legendary codepunk marvels start with understanding real user quests. </p> 
+              <p> When not conjuring clever code, expect me deep in the pixel puzzle mines, unleashing open-source weirdcraft, or zapping knowledge through the dev community with writing and mentorship side quests. </p>
+              
             </div>
 
             <div className="flex flex-wrap gap-4 pt-4">
@@ -67,11 +53,11 @@ const AboutSection = () => {
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Calendar className="h-4 w-4 mr-2" />
-                5+ Years Experience
+                The time it takes light to cross 189 trillion kilometers
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Award className="h-4 w-4 mr-2" />
-                50+ Projects Completed
+                A cache loaded with completed solutions
               </div>
             </div>
           </div>
