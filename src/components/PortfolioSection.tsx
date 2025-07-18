@@ -19,30 +19,9 @@ const PortfolioSection = () => {
       githubUrl: '#',
       featured: true
     },
+    
     {
       id: 2,
-      title: 'Mobile Banking App',
-      description: 'Secure mobile banking application with biometric authentication, transaction tracking, and budget management features.',
-      category: 'mobile',
-      technologies: ['React Native', 'TypeScript', 'Firebase', 'Biometrics'],
-      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: true
-    },
-    {
-      id: 3,
-      title: 'Design System',
-      description: 'Comprehensive design system with reusable components, documentation, and Figma integration for enterprise applications.',
-      category: 'design',
-      technologies: ['Figma', 'Storybook', 'React', 'SCSS', 'TypeScript'],
-      image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 4,
       title: 'AI-Powered Analytics',
       description: 'Machine learning dashboard for business intelligence with predictive analytics and real-time data visualization.',
       category: 'web',
@@ -53,7 +32,7 @@ const PortfolioSection = () => {
       featured: true
     },
     {
-      id: 5,
+      id: 3,
       title: 'Social Media Dashboard',
       description: 'Unified dashboard for managing multiple social media accounts with scheduling, analytics, and engagement tracking.',
       category: 'web',
@@ -64,7 +43,7 @@ const PortfolioSection = () => {
       featured: false
     },
     {
-      id: 6,
+      id: 4,
       title: 'IoT Home Automation',
       description: 'Smart home control system with voice commands, energy monitoring, and security features.',
       category: 'mobile',
