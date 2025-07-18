@@ -53,8 +53,8 @@ const HeroSection = () => {
           {/* Hero Text */}
           <div className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              Creative Developer &
-              <span className="block text-gradient-accent">Digital Designer</span>
+              Welcome &
+              <span className="block text-gradient-accent">Explore</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
