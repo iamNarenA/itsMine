@@ -175,7 +175,7 @@ const ContactSection = () => {
                         id="email"
                         name="email"
                         type="email"
-                        placeholder="your.email@example.com"
+                        placeholder="postmastar.demon@gmail.com"
                         value={formData.email}
                         onChange={handleInputChange}
                         required

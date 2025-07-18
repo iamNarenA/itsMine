@@ -31,19 +31,10 @@ const PortfolioSection = () => {
       githubUrl: '#',
       featured: true
     },
+    
+      
     {
       id: 3,
-      title: 'Social Media Dashboard',
-      description: 'Unified dashboard for managing multiple social media accounts with scheduling, analytics, and engagement tracking.',
-      category: 'web',
-      technologies: ['Vue.js', 'Express', 'MongoDB', 'Social APIs'],
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 4,
       title: 'IoT Home Automation',
       description: 'Smart home control system with voice commands, energy monitoring, and security features.',
       category: 'mobile',
