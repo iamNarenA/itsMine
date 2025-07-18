@@ -61,8 +61,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@example.com',
-      href: 'mailto:hello@example.com'
+      value: 'posmastar.demon@gmail.com',
+      href: 'mailto:Postmastar'
     },
     {
       icon: Phone,
@@ -97,8 +97,7 @@ const ContactSection = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Whether you're looking to build a new application, need help with an existing project, 
-                or just want to discuss ideas, I'm here to help bring your vision to life.
+                 I'm here !!!!.
               </p>
             </div>
 

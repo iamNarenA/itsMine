@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge';
 const BlogSection = () => {
   const featuredPost = {
     id: 1,
-    title: 'Building Scalable React Applications: Best Practices for 2024',
-    excerpt: 'Discover the latest patterns and techniques for creating maintainable, performant React applications that scale with your team and user base.',
-    content: 'In this comprehensive guide, we explore modern React development patterns, from component architecture to state management strategies...',
+    title: '!!!! 10101010101010101010101010 !!!!!!',
+    excerpt: 'Discover the latest patterns .',
+    content: 'DESCRIBE 4 UR SELF',
     category: 'Development',
-    publishDate: '2024-01-15',
-    readTime: '8 min read',
+    publishDate: '',
+    readTime: '',
     tags: ['React', 'TypeScript', 'Performance', 'Architecture'],
     image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop'
   };
