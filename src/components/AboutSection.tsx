@@ -4,10 +4,13 @@ import { Progress } from '@/components/ui/progress';
 
 const AboutSection = () => {
   const skills = [
-    { name: 'React & TypeScript', level: 95, icon: Code },
-    { name: 'UI/UX Design', level: 90, icon: Palette },
-    { name: 'Node.js & APIs', level: 85, icon: Zap },
-    { name: 'Mobile Development', level: 80, icon: Code },
+    { name: 'Code Gremlining', level: 95, icon: Code },
+    { name: 'Byte Bansheeing', level: 90, icon: Palette },
+    { name: 'Syntax Sorcerist', level: 85, icon: Code },
+    { name: 'Data Goblining', level: 85, icon: Zap },
+    { name: 'Entropy Wrangling', level: 85, icon: Palette },
+    { name: 'Einsteinian Sidekicking', level: 80, icon: Code },
+    { name: 'Idea Overclocking', level: 80, icon: Zap },
   ];
 
   const timeline = [
