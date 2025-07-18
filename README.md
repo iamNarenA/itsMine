@@ -1,18 +1,18 @@
-# Welcome to your Lovable project
+# Welcome to your About Me project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/8a134093-3848-49b7-9422-c317fd0217c7
+**URL**: https://About Me.dev/projects/8a134093-3848-49b7-9422-c317fd0217c7
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use About Me**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8a134093-3848-49b7-9422-c317fd0217c7) and start prompting.
+Simply visit the [About Me Project](https://lovable.dev/projects/8a134093-3848-49b7-9422-c317fd0217c7) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via About Me will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -62,9 +62,9 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/8a134093-3848-49b7-9422-c317fd0217c7) and click on Share -> Publish.
+Simply open [About Me](https://lovable.dev/projects/8a134093-3848-49b7-9422-c317fd0217c7) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my About Me project?
 
 Yes, you can!
 

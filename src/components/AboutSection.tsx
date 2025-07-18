@@ -12,23 +12,12 @@ const AboutSection = () => {
 
   const timeline = [
     {
-      year: '2024',
-      title: 'Senior Full-Stack Developer',
-      company: 'Tech Innovation Co.',
+      year: 'Time Beginning',
+      title: 'Quantum Tinkerer',
+      company: 'QT Inc',
       description: 'Leading development of cutting-edge web applications using modern technologies.'
-    },
-    {
-      year: '2022',
-      title: 'Frontend Developer',
-      company: 'Digital Solutions Inc.',
-      description: 'Specialized in creating responsive, user-friendly interfaces for enterprise clients.'
-    },
-    {
-      year: '2020',
-      title: 'Junior Developer',
-      company: 'StartUp Ventures',
-      description: 'Started my professional journey building web applications and learning industry best practices.'
-    },
+    }
+    
   ];
 
   return (
