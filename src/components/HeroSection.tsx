@@ -58,8 +58,8 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Crafting exceptional digital experiences through innovative design and cutting-edge technology. 
-              Passionate about creating solutions that make a difference.
+              Providing digital solutions grounded in advanced design principles and modern technologies, 
+              focused on creating measurable and effective outcomes.
             </p>
           </div>
 
