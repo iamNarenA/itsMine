@@ -91,8 +91,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'posmastar.demon@gmail.com',
-      href: 'mailto:Postmastar'
+      value: 'postmastar.demon@gmail.com',
+      href: 'mailto:postmastar.demon@gmail.com'
     },
     {
       icon: Phone,
