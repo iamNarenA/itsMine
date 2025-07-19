@@ -11,10 +11,10 @@ const HeroSection = () => {
     }
   };
 
-  const scrollToPortfolio = () => {
-    const portfolioSection = document.querySelector('#portfolio');
-    if (portfolioSection) {
-      portfolioSection.scrollIntoView({ behavior: 'smooth' });
+  const scrollToContact = () => {
+    const contactSection = document.querySelector('#contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -53,8 +53,7 @@ const HeroSection = () => {
           {/* Hero Text */}
           <div className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              Ideas in
-              <span className="block text-gradient-accent">Motion</span>
+              Ideas in Motion
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
@@ -67,10 +66,10 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in-right" style={{ animationDelay: '0.4s' }}>
             <Button 
               size="lg" 
-              onClick={scrollToPortfolio}
+              onClick={scrollToContact}
               className="bg-gradient-primary hover:bg-gradient-primary/90 text-white border-0 shadow-elegant hover-lift px-8 py-3"
             >
-              View My Work
+              Get In Touch
             </Button>
             <Button 
               size="lg" 
