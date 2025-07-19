@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import PortfolioSection from '@/components/PortfolioSection';
-import BlogSection from '@/components/BlogSection';
+
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -32,7 +32,6 @@ const PortfolioContent = () => {
         <HeroSection />
         <AboutSection />
         <PortfolioSection />
-        <BlogSection />
         <ContactSection />
       </main>
       <Footer />

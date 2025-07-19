@@ -17,22 +17,22 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Primary - Deep professional blue */
-    --primary: 215 80% 25%;
+    /* Primary - Modern purple */
+    --primary: 270 70% 40%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 215 80% 35%;
+    --primary-glow: 270 70% 50%;
 
-    /* Secondary - Warm neutral */
-    --secondary: 210 20% 96%;
-    --secondary-foreground: 215 25% 20%;
+    /* Secondary - Soft gray */
+    --secondary: 220 15% 94%;
+    --secondary-foreground: 220 20% 25%;
 
-    --muted: 210 20% 96%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 50%;
 
-    /* Accent - Sophisticated teal */
-    --accent: 195 75% 35%;
+    /* Accent - Vibrant coral */
+    --accent: 15 85% 55%;
     --accent-foreground: 0 0% 98%;
-    --accent-glow: 195 75% 45%;
+    --accent-glow: 15 85% 65%;
 
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
@@ -87,19 +87,19 @@
     --popover: 215 25% 10%;
     --popover-foreground: 210 20% 95%;
 
-    --primary: 215 80% 65%;
+    --primary: 270 70% 70%;
     --primary-foreground: 215 30% 8%;
-    --primary-glow: 215 80% 75%;
+    --primary-glow: 270 70% 80%;
 
-    --secondary: 215 20% 15%;
-    --secondary-foreground: 210 20% 90%;
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 220 10% 88%;
 
-    --muted: 215 20% 15%;
-    --muted-foreground: 215 15% 60%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 220 10% 65%;
 
-    --accent: 195 75% 60%;
+    --accent: 15 85% 65%;
     --accent-foreground: 215 30% 8%;
-    --accent-glow: 195 75% 70%;
+    --accent-glow: 15 85% 75%;
 
     --destructive: 0 75% 65%;
     --destructive-foreground: 0 0% 98%;

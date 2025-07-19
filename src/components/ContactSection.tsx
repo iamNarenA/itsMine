@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle, Bell } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -14,7 +14,9 @@ const ContactSection = () => {
     subject: '',
     message: ''
   });
+  const [subscribeEmail, setSubscribeEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubscribing, setIsSubscribing] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -54,6 +56,34 @@ const ContactSection = () => {
       });
     } finally {
       setIsSubmitting(false);
+    }
+  };
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!subscribeEmail) return;
+    
+    setIsSubscribing(true);
+
+    try {
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      
+      toast({
+        title: "Successfully subscribed!",
+        description: "You'll receive updates about new projects and insights.",
+        duration: 5000,
+      });
+
+      setSubscribeEmail('');
+    } catch (error) {
+      toast({
+        title: "Subscription failed",
+        description: "Please try again later.",
+        variant: "destructive",
+        duration: 5000,
+      });
+    } finally {
+      setIsSubscribing(false);
     }
   };
 
@@ -256,8 +286,50 @@ const ContactSection = () => {
           </div>
         </div>
 
+        {/* Newsletter Subscription */}
+        <div className="mt-16">
+          <Card className="shadow-elegant hover-lift">
+            <CardContent className="p-8 text-center">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center">
+                  <Bell className="h-8 w-8 text-white" />
+                </div>
+              </div>
+              <h3 className="text-2xl font-semibold mb-4">Stay Updated</h3>
+              <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+                Subscribe to get notified about my latest projects, insights, and technical articles. 
+                No spam, just valuable content delivered to your inbox.
+              </p>
+              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
+                <Input
+                  type="email"
+                  placeholder="Enter your email address"
+                  value={subscribeEmail}
+                  onChange={(e) => setSubscribeEmail(e.target.value)}
+                  required
+                  className="flex-1 transition-smooth focus:shadow-glow"
+                />
+                <Button 
+                  type="submit"
+                  disabled={isSubscribing}
+                  className="bg-gradient-primary hover:bg-gradient-primary/90 px-6"
+                >
+                  {isSubscribing ? (
+                    <div className="flex items-center">
+                      <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin mr-2" />
+                      Subscribing...
+                    </div>
+                  ) : (
+                    'Subscribe'
+                  )}
+                </Button>
+              </form>
+            </CardContent>
+          </Card>
+        </div>
+
         {/* Additional CTA */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-12">
           <Card className="inline-block shadow-elegant hover-lift">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-4">Ready to Start Your Project?</h3>
