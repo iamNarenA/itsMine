@@ -97,13 +97,13 @@ const HeroSection = () => {
             >
               <Linkedin className="h-6 w-6" />
             </a>
-            <a 
-              href="#" 
+            <button 
+              onClick={scrollToContact}
               className="text-white/70 hover:text-white transition-colors hover-scale"
               aria-label="Email"
             >
               <Mail className="h-6 w-6" />
-            </a>
+            </button>
           </div>
         </div>
 
